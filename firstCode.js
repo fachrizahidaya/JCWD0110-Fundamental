@@ -1,5 +1,5 @@
 // Coding hari pertama
-console.log("Hello world"); // ini coding
+// console.log("Hello world"); // ini coding
 /* 
 ini sebuah 
 comment 
@@ -8,13 +8,13 @@ let message = "Hello";
 
 // contoh let
 let product = "shoes";
-console.log(product);
+// console.log(product);
 product = "bag";
-console.log(product);
+// console.log(product);
 
 // contoh const
 const name = "Johnny";
-console.log(name);
+// console.log(name);
 // name = "Jason";
 
 // camel-case
@@ -23,7 +23,7 @@ let currentCity = "Yogya";
 // penulisan variable tidak boleh sama, case-sensitive
 let product1 = "car";
 const Product1 = "car";
-console.log(product1);
+// console.log(product1);
 
 const message1 = "javascript";
 const count = 123;
@@ -36,29 +36,29 @@ const person = {
   age: 26,
 };
 
-console.log(typeof message1);
-console.log(typeof count);
-console.log(typeof bigNumber);
-console.log(typeof isTrue);
-console.log(typeof noData);
-console.log(typeof noAssigned);
-console.log(typeof person);
+// console.log(typeof message1);
+// console.log(typeof count);
+// console.log(typeof bigNumber);
+// console.log(typeof isTrue);
+// console.log(typeof noData);
+// console.log(typeof noAssigned);
+// console.log(typeof person);
 
 // mutable
 let name1 = "Rizal";
-console.log(name1);
+// console.log(name1);
 let newName = name1;
-console.log(newName);
+// console.log(newName);
 
 // immutable
 let Person = {
   name: "Johnny",
   age: 26,
 };
-console.log(Person);
+// console.log(Person);
 
 let newPerson = Person;
-console.log(newPerson);
+// console.log(newPerson);
 
 // string built-in method
 
@@ -66,8 +66,8 @@ console.log(newPerson);
 let message2 = "Hello there";
 let result = message2.slice(0, 3);
 let result1 = message2.slice(3);
-console.log(result);
-console.log(result1);
+// console.log(result);
+// console.log(result1);
 
 // concat
 let message3 = "Hello";
@@ -76,15 +76,15 @@ let result2 = message3.concat(" ", message4);
 
 // uppercase
 let result3 = message4.toUpperCase();
-console.log(result2);
-console.log(result3);
+// console.log(result2);
+// console.log(result3);
 
 // split
 let message5 = "How are you?";
 let result4 = message5.split("");
 let result5 = message5.split(" ");
-console.log(result4);
-console.log(result5);
+// console.log(result4);
+// console.log(result5);
 
 // indexOf
 let message6 = "Hello world, welcome to the universe.";
@@ -93,79 +93,79 @@ let result7 = message6.indexOf("l");
 let result8 = message6.indexOf("a");
 let result9 = message6.indexOf("hello");
 let result10 = message6.indexOf("l", 6);
-console.log(result6);
-console.log(result7);
-console.log(result8);
-console.log(result9);
-console.log(result10);
+// console.log(result6);
+// console.log(result7);
+// console.log(result8);
+// console.log(result9);
+// console.log(result10);
 
 // trim
 let message7 = "       Hello World!        ";
 let result11 = message7.trim();
-console.log(`Hasil split-nya adalah ${result11}`);
+// console.log(`Hasil split-nya adalah ${result11}`);
 
 // replace
 let result12 = result11.replace(/^\s+|\s+$/gm, "");
-console.log(result12);
+// console.log(result12);
 
 // template literal
 const name2 = "David";
 const message8 = `Welcome, ${name2}`;
-console.log(message8);
-console.log(`My name is ${name2}`);
+// console.log(message8);
+// console.log(`My name is ${name2}`);
 
 // number built-in
 let number1 = 1;
-console.log(typeof number1);
+// console.log(typeof number1);
 let text = number1.toString();
-console.log(text);
-console.log(typeof text);
+// console.log(text);
+// console.log(typeof text);
 
 let number2 = 123.456;
-console.log(typeof number2);
+// console.log(typeof number2);
 let exp = number2.toExponential();
-console.log(exp);
-console.log(typeof exp);
+// console.log(exp);
+// console.log(typeof exp);
 
 let string1 = "123";
 let string2 = "100.2";
 let num1 = parseInt(string1);
 let num2 = parseFloat(string2);
-console.log(num1);
-console.log(typeof num1);
+// console.log(num1);
+// console.log(typeof num1);
 let num3 = Math.floor(num2);
 let num4 = Math.ceil(num2);
-console.log(num2);
-console.log(num3);
-console.log(num4);
+// console.log(num2);
+// console.log(num3);
+// console.log(num4);
 
 // type conversion
 let str1 = String(123);
-console.log(str1);
-console.log(typeof str1);
+// console.log(str1);
+// console.log(typeof str1);
 const num = "3" * 4;
-console.log(num);
+// console.log(num);
 let str2 = Number("3.14");
-console.log(str2);
-console.log(typeof str2);
+// console.log(str2);
+// console.log(typeof str2);
 let boo1 = Boolean(1);
 let boo2 = Boolean(0);
 let boo3 = Boolean("Hello ");
 let boo4 = Boolean("");
-console.log(boo1);
-console.log(boo2);
-console.log(boo3);
-console.log(boo4);
+// console.log(boo1);
+// console.log(boo2);
+// console.log(boo3);
+// console.log(boo4);
 
 // date data type
 let now = new Date();
-console.log(now);
+// console.log(now);
 let jan01 = new Date(0);
-console.log(jan01);
+// console.log(jan01);
 let jan02 = new Date(24 * 3600 * 1000);
-console.log(jan02);
+// console.log(jan02);
 let date = new Date("1969-01-26");
-console.log(date);
+// console.log(date);
 
 // date built-n
 let d = new Date().getFullYear();
@@ -175,17 +175,133 @@ let d3 = new Date().getDay();
 let d4 = new Date().getHours();
 let d5 = new Date().getMinutes();
 let d6 = new Date().getSeconds();
-console.log(d);
-console.log(d1);
-console.log(d2);
-console.log(d3);
-console.log(d4);
-console.log(d5);
-console.log(d6);
+// console.log(d);
+// console.log(d1);
+// console.log(d2);
+// console.log(d3);
+// console.log(d4);
+// console.log(d5);
+// console.log(d6);
 
 let s = new Date();
 s.setFullYear(2022, 11, 03);
-console.log(s);
+// console.log(s);
 let s1 = new Date();
 s1.setDate(02);
-console.log(s1);
+// console.log(s1);
+
+// math operation
+let a = 5;
+let b = 5;
+let c = 27;
+let res = a + b;
+let res2 = a - b;
+let res1 = a * b;
+let res3 = a / b;
+let res4 = a ** 2;
+let res5 = c % 3;
+let res6 = c % 9;
+let res7 = c % 4;
+// console.log(res);
+// console.log(res2);
+// console.log(res1);
+// console.log(res3);
+// console.log(res4);
+// console.log(res5);
+// console.log(res6);
+// console.log(res7);
+
+// unary
+let x = 1;
+x = -x;
+// console.log(x);
+
+// binary
+let y = 2;
+let z = 3;
+// console.log(y + z);
+// console.log(y * z);
+// console.log(y - z);
+// console.log(y / z);
+// console.log(z % y);
+
+// concatenation
+let sentence = "Hello" + " " + "World";
+// console.log(sentence);
+
+let ex1 = "1" + 2;
+// console.log(ex1);
+// console.log(typeof ex1);
+let ex2 = 2 + "1";
+// console.log(ex2);
+// console.log(typeof ex2);
+let ex3 = 1 + 1 + "1";
+// console.log(ex3);
+// console.log(typeof ex3);
+
+let ex4 = "1" + 1 + 1;
+// console.log(ex4);
+// console.log(typeof ex4);
+
+// modify in place
+let n = 2;
+n += 5;
+// console.log(n);
+n *= 2;
+// console.log(n);
+n -= 2;
+// console.log(n);
+n /= 2;
+// console.log(n);
+
+// increment & decrement
+let counter = 2;
+counter++;
+// console.log(counter);
+counter--;
+// console.log(counter);
+
+// prefix postfix
+
+// decrement
+let preCounter = 2;
+// console.log(--preCounter);
+let postCounter = 2;
+// console.log(postCounter--);
+
+// increment
+let preCounter1 = 2;
+// console.log(++preCounter);
+let postCounter1 = 2;
+// console.log(postCounter--);
+
+let f = 20;
+let g = 20;
+let h = 10;
+let i = "20";
+
+let comp = f == g;
+let comp1 = f === g;
+let comp2 = f == i;
+let comp3 = f === i;
+let comp4 = f == h;
+let comp5 = f === h;
+// equal
+console.log(comp);
+console.log(comp1);
+console.log(comp2);
+console.log(comp3);
+console.log(comp4);
+console.log(comp5);
+// not equal
+let comp6 = f != g;
+let comp7 = f != h
+console.log(comp6);
+console.log(comp7);
+console.log(f !== i)
+// greater/equal than  
+console.log(f < i)
+console.log(f > h)
+console.log(f >= h)
+console.log(f <= i)
+
