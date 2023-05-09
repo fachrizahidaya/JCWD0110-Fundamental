@@ -1,0 +1,19 @@
+problem soal 1: 
+1. find area rectangle
+2. find perimeter rectangle
+
+hint:
+1. find out how to get area of rectangle
+    area rectangle = length * width
+2. find out how to get perimeter of rectangle
+    perimeter = 2 * (width + length)
+
+solution:
+1. define variable and give value for variable
+    length = 5  
+    width = 10
+
+2. define variable to keep the result
+    area = length * width
+    perimeter = 2 * (length + width)
+
