@@ -52,23 +52,6 @@ if (weight >= 80) {
   console.log("Berat badan kurang");
 }
 
-// switch - case
-const product = "Papaya";
-switch (product) {
-  case "Orange":
-    console.log("$1 per kg");
-    break;
-  case "Salak":
-    console.log("$2 per kg");
-    break;
-  case "Mangoes":
-  case "Papaya":
-    console.log("Mango and Papaya are $3 per kg");
-    break;
-  default:
-    console.log(`Product not available for ${product}`);
-}
-
 // comparison operator
 let age1 = 18;
 if (age1 != 18) {
