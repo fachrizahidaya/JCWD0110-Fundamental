@@ -1,8 +1,8 @@
 const randomPick = (arr) => {
   let computer = Math.floor(Math.random() * arr.length);
   let player = Math.floor(Math.random() * arr.length);
-  console.log("Computer:",arr[computer]);
-  console.log("Player:",arr[player]);
+  console.log("Computer:", arr[computer]);
+  console.log("Player:", arr[player]);
   if (player === computer) {
     return "Tie";
   } else if (
