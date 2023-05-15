@@ -6,6 +6,6 @@ const calculateArray = (arr1, arr2) => {
   return sumArray;
 };
 let a = [1, 2, 3];
-let b = [3, 2, 1];
+let b = [3, 2, 3];
 let c = calculateArray(a, b);
 console.log(c);
