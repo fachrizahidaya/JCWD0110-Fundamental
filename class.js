@@ -28,7 +28,7 @@ let newHuman = [
   new Human("Afdhal", "1998-03-14", "Male"),
   new Human("Vaya", "2001-03-14", "Female"),
 ];
-// console.log(newHuman);
+console.log(newHuman);
 
 // Public, Private and Static Properties
 class User {
@@ -49,6 +49,6 @@ class User {
 
 const user = new User("David", "david@gmail.com"); //instance of untuk class User
 console.log(user.name);
-// console.log(user.#email) // tidak dapat akses secara langsung karena private property
+console.log(user.#email) // tidak dapat akses secara langsung karena private property
 console.log(User.age); // static tidak perlu memanggil instance of (const user)
 console.log(user.findEmail());

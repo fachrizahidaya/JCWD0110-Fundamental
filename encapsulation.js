@@ -18,7 +18,7 @@ class Employee {
 const employee = new Employee();
 employee.employeeName = "Johnny";
 console.log(Employee.employeeName);
-// console.log(employee);
-// console.log(employee.getEmployeeName())
+console.log(employee);
+console.log(employee.getEmployeeName())
 employee.setEmployeeName("Riki");
 console.log(employee);
