@@ -8,5 +8,5 @@ const multipleInteger = (maxSize, ...manyNum) => {
   }
   return arr;
 };
-let a = multipleInteger(5, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+let a = multipleInteger(5, 5, 10, 24, 3, 6, 7, 8);
 console.log(a);

@@ -12,7 +12,7 @@ const findDifference = (arr1, arr2) => {
   }
   return difference;
 };
-let a = ["hello", "world"];
+let a = ["hello", "world"]; // ["world", "there"]
 let b = ["hello", "there"];
 let c = findDifference(a, b);
 console.log(c);

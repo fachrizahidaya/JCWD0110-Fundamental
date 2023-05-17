@@ -5,7 +5,7 @@ const findDuplicate = (arr) => {
     if (arr.indexOf(arr[i]) !== i && duplicate.indexOf(arr[i] === -1)) {
       console.log(arr.indexOf(arr[i])); // 1,1,3,3,4
       // console.log(duplicate.indexOf(arr[i]));
-      // console.log(arr.indexOf(arr[i]) !== i);
+      console.log(arr.indexOf(arr[i]) !== i);
       // console.log(duplicate.indexOf(arr[i] === -1));
       duplicate.push(arr[i]);
     }
