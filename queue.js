@@ -39,10 +39,11 @@ let queue = new Queue();
 queue.enqueue(1);
 queue.enqueue(2);
 queue.enqueue(3);
+queue.getElements()
 // queue.enqueue(4)
-console.log(queue);
-queue.dequeue();
-queue.dequeue();
-queue.dequeue();
-queue.dequeue();
+// console.log(queue);
+// queue.dequeue();
+// queue.dequeue();
+// queue.dequeue();
+// queue.dequeue();
 // console.log(queue.getElements());
