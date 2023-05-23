@@ -1,17 +1,17 @@
 // Constant time / O(1)
 // Banyaknya input tidak akan memengaruhi waktu proses coding
-let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let myArray = [1, 2, 3, 4];
 
 const getFirst = (input) => {
   return input[0];
 };
 
-// console.log(getFirst(myArray));
+console.log(getFirst(myArray));
 
 // Linear time / O(n)
 // Banyaknya input akan berbanding lurus dengan waktu proses coding --> single loop
 
-let newArray = [1, 2, 3, 4];
+let newArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const getMax = (input) => {
   let max = 0;
@@ -24,7 +24,7 @@ const getMax = (input) => {
   //   return max;
 };
 
-// getMax(newArray);
+getMax(newArray);
 
 // Square 2 time
 // Bisa terjadi karena menjalankan proses linear di dalam linear (n2)
@@ -42,6 +42,3 @@ const sort = (input) => {
 };
 
 console.log(sort(myArr));
-
-[2, 1, 4, 5, 7, 8, 9, 3];
-// cari 2
