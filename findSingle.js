@@ -3,7 +3,6 @@ function findSingle(arr) {
   let temp;
   for (let i = 0; i < arr.length; i++) {
     temp = arr.filter((a) => a == arr[i]);
-    console.log(temp);
 
     if (temp.length == 1) {
       single.push(arr[i]);
