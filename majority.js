@@ -24,6 +24,6 @@ const searchMajor = (arr) => {
   }
 };
 
-let a = [1];
+let a = [3,2,3];
 
 console.log(searchMajor(a));

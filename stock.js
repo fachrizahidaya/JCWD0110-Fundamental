@@ -11,4 +11,4 @@ const maxProfit = (arr) => {
   return max;
 };
 
-console.log(maxProfit([5, 8, 1, 7]));
+console.log(maxProfit([7, 1, 5, 3, 6, 4]));
