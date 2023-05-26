@@ -1,17 +1,17 @@
 // function sequence
-// let result;
-// function greet(str) {
-//   result = str;
-// }
-// function hello() {
-//   greet("hello");
-// }
-// function arigatou() {
-//   greet("arigatou");
-// }
-// arigatou();
-// hello();
-// console.log(result);
+let result;
+function greet(str) {
+  result = str;
+}
+function hello() {
+  greet("hello");
+}
+function arigatou() {
+  greet("arigatou");
+}
+arigatou();
+hello();
+console.log(result);
 
 // first way sequence control
 function calculator1(a, b) {
@@ -23,7 +23,7 @@ function displayer1(number) {
 }
 
 let result1 = calculator1(5, 5);
-// displayer1(result1);
+displayer1(result1);
 
 // second way
 function calculator2(a, b) {
@@ -35,7 +35,7 @@ function displayer2(number) {
   console.log(number);
 }
 
-// calculator2(6, 6);
+calculator2(6, 6);
 
 // indirect callback
 function calculate(a, b, callback) {

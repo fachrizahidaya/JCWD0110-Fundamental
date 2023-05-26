@@ -17,7 +17,6 @@ let newPromise = new Promise((resolve, reject) => {
   } else {
     setTimeout(() => {
       database.pop();
-      //   database.pop();
       resolve(database);
     }, 3000);
   }

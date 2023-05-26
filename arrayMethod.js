@@ -8,7 +8,7 @@ let a = names.forEach((item, index) => {
 let b = names.map((item, index) => {
   return index;
 });
-// console.log(b);
+console.log(b);
 
 // case lain
 let number = [1, 2, 3, 4, 5];
@@ -18,14 +18,14 @@ let evenNum = number.map((item) => {
     arr.push(item);
   }
 });
-// console.log(evenNum);
+console.log(evenNum);
 
 // filter --> sama seperti map
 // return array baru sesuai dengan filtering
 let oddNum = number.filter((item) => {
   return item % 2 !== 0;
 });
-// console.log(oddNum);
+console.log(oddNum);
 
 let data = [
   { name: { firstName: "Ahmad", lastName: "Bahrudin" }, hobi: "sepeda" },
