@@ -1,7 +1,16 @@
 const tryPromise = new Promise((resolve, reject) => {
-  let isError = true;
-  if (isError !== false) reject("Error");
-  else resolve("success");
+  let isError = false;
+  console.log("waiting...");
+  if (isError !== false) {
+    setTimeout(() => {
+      reject("Error");
+    }, 2000);
+  } else {
+    setTimeout(() => {
+      resolve("success");
+    }, 2000);
+  }
+  //   console.log("done...");
 });
 
 tryPromise
@@ -17,6 +26,7 @@ let newPromise = new Promise((resolve, reject) => {
   } else {
     setTimeout(() => {
       database.pop();
+
       resolve(database);
     }, 3000);
   }
