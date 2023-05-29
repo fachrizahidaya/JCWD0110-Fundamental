@@ -1,4 +1,4 @@
-const { sum, substr, greet } = require("./sum");
+const { sum, substr, greet } = require("../functions/sum");
 
 // const testing = () => {
 //   expect(sum(1, 2)).toBe(3);

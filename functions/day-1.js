@@ -1,0 +1,43 @@
+function formulaRectangle(length, width) {
+  return {
+    area: length * width,
+    perimeter: 2 * (length + width),
+  };
+}
+
+function formulaCircle(r) {
+  return {
+    diameter: 2 * r,
+    area: Math.ceil(Math.PI * Math.pow(r, 2)),
+    perimeter: Math.ceil(2 * Math.PI * r),
+  };
+}
+
+function angleTriangle(a, b) {
+  return {
+    findAngle() {
+      let c = 180 - a - b;
+      return c;
+    },
+  };
+}
+
+function differenceDates(first, second) {
+  return {
+    findDate() {
+      let day = "";
+      let date1 = new Date(first);
+      let date2 = new Date(second);
+      let diffTime = Math.abs(date2 - date1);
+      let diffDays = Math.ceil(diffTime / (1000 * 3600 * 24));
+      return (day = `${diffDays} days`);
+    },
+  };
+}
+
+module.exports = {
+  formulaRectangle,
+  formulaCircle,
+  angleTriangle,
+  differenceDates
+};
