@@ -3,26 +3,33 @@ class OrderProcess {
     this.data = data;
   }
 
-  processing() {
+  process() {
     let i = 0;
     while (i < this.data.length) {
-      let promiseQueue = new Promise((resolve, reject) => {
-        resolve(this.data[i]);
-        reject("failed");
+      let queuePromise = new Promise((resolve) => {
+        if (this.data.length === 0) {
+          throw new Error("Error cuy");
+        } else {
+          resolve(this.data[i]);
+        }
       });
-      let randomInterval = Math.ceil(Math.random() * 10);
-      let executePromise = async () => {
+      let randomTime = Math.floor(Math.random() * 10);
+      let executeQueuePromise = async () => {
+        let result = await queuePromise;
         try {
-          let result = await promiseQueue;
-          console.log(`${result} Done in ${randomInterval} minutes`);
+          console.log(`${result} Done in ${randomTime} minutes`);
         } catch (error) {
           console.log(error);
         }
       };
-      executePromise();
+      executeQueuePromise();
       i++;
     }
   }
 }
+
+let queue = new OrderProcess(["Queue 1", "Queue 2", "Queue 3"]);
+
+queue.process();
 
 module.exports = { OrderProcess };

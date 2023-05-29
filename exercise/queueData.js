@@ -8,4 +8,4 @@ let orderList = new OrderProcess([
   "Queue 5",
 ]);
 
-orderList.processing();
+orderList.process();
