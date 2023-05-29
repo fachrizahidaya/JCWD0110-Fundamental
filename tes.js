@@ -23,3 +23,6 @@ const findFunc = (a) => {
     },
   };
 };
+
+// 5
+console.log(findFunc(5).findOne().findTwo().findThree().array[1]);
