@@ -34,4 +34,4 @@ async function tryAndCatch() {
   }
 }
 
-module.exports = { tryPromise, tryAndCatch, tryPromise2 };
+module.exports = { tryPromise, tryAndCatch };

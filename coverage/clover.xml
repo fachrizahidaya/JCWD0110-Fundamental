@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1685346526002" clover="3.2.0">
-  <project timestamp="1685346526004" name="All files">
-    <metrics statements="73" coveredstatements="61" conditionals="8" coveredconditionals="4" methods="24" coveredmethods="20" elements="105" coveredelements="85" complexity="0" loc="73" ncloc="73" packages="1" files="4" classes="4"/>
+<coverage generated="1685347224548" clover="3.2.0">
+  <project timestamp="1685347224548" name="All files">
+    <metrics statements="73" coveredstatements="68" conditionals="8" coveredconditionals="5" methods="24" coveredmethods="23" elements="105" coveredelements="96" complexity="0" loc="73" ncloc="73" packages="1" files="4" classes="4"/>
     <file name="day-1.js" path="D:\Purwadhika\Web Developer\JCWD0110-Fundamental\day-14\functions\day-1.js">
       <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
       <line num="2" count="1" type="stmt"/>
@@ -25,7 +25,7 @@
       <line num="50" count="1" type="stmt"/>
     </file>
     <file name="day-13.js" path="D:\Purwadhika\Web Developer\JCWD0110-Fundamental\day-14\functions\day-13.js">
-      <metrics statements="19" coveredstatements="8" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="4"/>
+      <metrics statements="19" coveredstatements="15" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="7"/>
       <line num="2" count="2" type="stmt"/>
       <line num="3" count="2" type="stmt"/>
       <line num="4" count="2" type="cond" truecount="1" falsecount="1"/>
@@ -35,14 +35,14 @@
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="0" type="stmt"/>
       <line num="15" count="1" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="21" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
-      <line num="29" count="0" type="stmt"/>
-      <line num="30" count="0" type="stmt"/>
-      <line num="31" count="0" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
       <line num="33" count="0" type="stmt"/>
       <line num="37" count="1" type="stmt"/>
     </file>
