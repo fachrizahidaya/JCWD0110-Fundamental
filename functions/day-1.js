@@ -35,9 +35,22 @@ function differenceDates(first, second) {
   };
 }
 
+function convertToDays(days, daysInYear, daysInMonth) {
+  return {
+    calculateDays() {
+      const year = Math.floor(days / daysInYear);
+      const residualYear = days - daysInYear;
+      const month = Math.floor(residualYear / daysInMonth);
+      const residualMonth = residualYear % daysInMonth;
+      return `${year} year, ${month} month, ${residualMonth} days`;
+    },
+  };
+}
+
 module.exports = {
   formulaRectangle,
   formulaCircle,
   angleTriangle,
-  differenceDates
+  differenceDates,
+  convertToDays,
 };

@@ -3,6 +3,7 @@ const {
   formulaCircle,
   angleTriangle,
   differenceDates,
+  convertToDays,
 } = require("../functions/day-1");
 
 test("mencari area dan keliling rectangle", () => {
@@ -25,5 +26,11 @@ test("mencari sudut ketiga dari segitiga", () => {
 });
 
 test("mencari selisih dua dates", () => {
-  expect(differenceDates("2022-09-05", "2022-01-01").findDate()).toMatch("247 days");
+  expect(differenceDates("2022-09-05", "2022-01-01").findDate()).toMatch(
+    "247 days"
+  );
+});
+
+test("mencari tahun, bulan dan hari dari days", () => {
+  expect(convertToDays(400, 365, 30).calculateDays()).toMatch("1 year, 1 month, 5 days");
 });
